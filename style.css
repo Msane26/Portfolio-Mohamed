@@ -1,0 +1,143 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 80px;
+    padding: 0 5%;
+    
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.menu li{
+    list-style: none;
+    margin: 0 20px;
+}
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: 0;
+    transition: 0.5;
+    color: white;
+    font-size: large;
+}
+.menu li a:hover{
+    color: yellow;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+.accueil{
+    background: no-repeat  center center fixed url(img/3604a5b38bb11caa6fdfef0c79d2b256.jpeg);
+    background-size: 160%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    
+ }
+ .accueil h1{
+    color: white;
+    font-size: 70px; 
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .accueil h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .button{
+    padding: 15px;
+    margin-top: 10%;
+    background-color: rgba(0, 4, 255, 0.658);
+    color: white;
+    text-transform: uppercase;
+ }
+.profil {
+    background: no-repeat center center fixed url(img/gojo_aesth_by_nkbhd_dg3e1zj-pre.jpg);
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 20%;
+}
+.profil h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-right: 20%;
+    padding-bottom: 5%;
+}
+.profil p{
+    font-size: 18px;
+    margin-right: 5%;
+}
+.competence {
+    background: no-repeat center center fixed url(img/1aa5d281a0c2283d1700a46218591286.png);
+    background-size: 100%;
+}
+.portfolio {
+    background: no-repeat center center fixed url(img/detective_conan_by_giovanni_panarello_dehwi4f-pre.jpg);
+    background-size: 110%;
+}
+.contact {
+    background: no-repeat center center fixed url(img/fullmetal_alchemist_by_noodleli_d81o33o-pre.jpg);
+    background-size: 100%;
+    border: 1px solid red;
+}
+
+
+/* #redbar::-moz-progress-bar {
+  background-color: red;
+} */
+.competence{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    
+    
+} 
+.right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%; 
+   
+} 
+form{
+     border: 1px solid red;
+     width: 100%;
+     height: 100%;
+     
+}
+
+
